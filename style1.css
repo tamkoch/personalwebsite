@@ -22,15 +22,15 @@ h2 {
 }
 
     /* Style the links inside the navigation bar */
-    .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        text-align: center;
-    }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
 
         /* Change the color of links on hover */
 .topnav a:hover {
@@ -53,19 +53,20 @@ color: darkblue;
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
-    color: #444;
+    color: darkblue;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: 120%;
 }
 
     /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
     .active, .accordion:hover {
-        background-color: #ccc;
+        background-color: #e0f0ff;
     }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -74,6 +75,8 @@ color: darkblue;
     background-color: white;
     display: none;
     overflow: hidden;
+    text-align:center;
+    font-size: 110%;
 }
  
 

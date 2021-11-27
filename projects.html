@@ -13,22 +13,43 @@
         <a href="projects.html">Projects</a>
         <a href="skills.html">Skillset</a>
     </div>
-    <h1>Projects</h1>
+    <h2>Projects</h2>
 
     <button class="accordion">SQL Database</button>
     <div class="panel">
         <p>Worked in a team of 5, where my responsibilities were creating an ERD, developing a SQL Database in the Microsoft SQL Server Management environment, populating the database with data, writing queries to get the data needed.</p>
     </div>
 
-    <button class="accordion">Section 2</button>
+    <button class="accordion">Project in Tuscany</button>
     <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p>Worked with 25 refugees from Senegal. Helped them learn English while they helped us learn Italian.</p>
     </div>
 
     <button class="accordion">Section 3</button>
     <div class="panel">
         <p>Lorem ipsum...</p>
     </div>
+<!--Java code-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+        
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
 
 </body>
 </html>
