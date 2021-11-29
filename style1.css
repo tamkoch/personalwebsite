@@ -15,6 +15,14 @@ h2 {
        
 }
 
+img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
 .topnav {
     background-color: #021133;
     overflow: hidden;
@@ -158,9 +166,9 @@ li a {
 }
 
     /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 
 
 
@@ -185,9 +193,9 @@ li a {
     transition: background-color 0.6s ease;
 }
 
-    .active, .dot:hover {
-        background-color: #717171;
-    }
+.active, .dot:hover {
+    background-color: #717171;
+}
 
 /* Fading animation */
 .fade {
